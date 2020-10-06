@@ -16,6 +16,11 @@ html, body {
     margin: auto;
     max-width: 700px;
     padding: 20px 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    animation-duration: 1s;
+    transition-timing-function: ease-in;
 }
 
 /* Header styling */
@@ -130,6 +135,19 @@ html, body {
 
 .btn:hover {
     color: #e4ded8;
+}
+
+/*  */
+
+@keyframes sliding {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
 }
 
 
