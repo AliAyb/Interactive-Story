@@ -137,6 +137,10 @@ html, body {
     color: #e4ded8;
 }
 
+.link {
+    text-decoration: none;
+}
+
 /*  */
 
 @keyframes sliding {
