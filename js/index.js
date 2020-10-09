@@ -9,3 +9,9 @@ radios.forEach(radio => {
         link.href = radio.value;
     })
 });
+
+let strong = document.querySelectorAll("strong");
+
+strong.forEach(element => {
+    element.parentNode.style = "font-style: italic";
+})

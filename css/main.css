@@ -7,7 +7,7 @@
 
 html, body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #f7f4f1;
+    background-color: #e86cec;
     font-size: 16px;
 }
 
@@ -34,6 +34,7 @@ html, body {
     font-size: 2rem;
     font-weight: 400;
     margin-bottom: 10px;
+    color: white;
 }
 
 /* the h2 */
@@ -43,6 +44,7 @@ html, body {
     margin-bottom: 10px;
     font-style: italic;
     margin-bottom: 15px;
+    color: white;
 }
 
 .author span {
@@ -55,7 +57,7 @@ html, body {
     font-size: 1.35rem;
     cursor: pointer;
     padding: 0.3rem;
-    background-color: #626160;
+    background-color: #a32874;
     color: #f7f4f1;
     border: none;
     border-radius: 0.5rem;
@@ -81,6 +83,7 @@ html, body {
 
 .choices {
     margin-bottom: 20px;
+    color: white;
 }
 
 .choices label{
@@ -93,7 +96,7 @@ html, body {
 }
 
 .choice label:hover {
-    background-color: #e4ded8;
+    background-color: #ce0c8d;
     box-shadow:  10px 10px 10px #a9acaf;
     animation: zoom 1s forwards ease-out;
 }
@@ -127,7 +130,7 @@ html, body {
     cursor: pointer;
     padding: 10px;
     font-size: 1.35rem;
-    background-color: #626160;
+    background-color: #a32874;
     color: #f7f4f1;
     border: none;
     border-radius: 0.5rem;
@@ -154,4 +157,15 @@ html, body {
     }
 }
 
+strong {
+    color: #f508a6;
+}
+
+p {
+    color: white;
+}
+
+.end {
+    color: white;
+}
 
