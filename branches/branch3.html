@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Interactive Story</title>
+</head>
+
+<body onload="slideAnimation()">
+    <div id="main-container">
+        <div class="main-header">
+            <h1 class="game-title"><span>Here comes the title of the story</span></h1>
+            <h2 class="author"><span>by Under Pressure</span></h2>
+            <button class="reset-game">Restart Game</button>
+        </div>
+
+        <div class="main">
+            <div class="text">
+                <p><strong>Narrator:</strong> When Lyra reached the main hall, she saw a bunch of scholars sitting to
+                    the dining table with the Master. She was invited to sit to the table beside them. The scholars were
+                    mostly old men with white beards. Some of them she saw before, and some of them she never saw. But
+                    among them was in particular a young woman who seemed kind and out of place.
+
+                </p>
+                <p><strong>Master:</strong> I’m sorry you didn’t catch up with Lord Asriel, he set off back to the North
+                    this morning.
+
+                <p><strong>Lyra:</strong> What? What are you talking about? Why did no one tell me my uncle is
+                    travelling today. Why didn’t he speak to me before he went. He promised he was taking me with him?
+                </p>
+                <p><strong>Master:</strong> Lyra, please don’t raise your voice, we are not responsible for your uncle’s
+                    actions.
+                    There is someone I’d like to introduce you to. I want you to say hi to Mrs. Coulter, she is working
+                    in Paris with the scholars and searching for someone to help her with her research.
+                </p>
+
+                <p><strong>The lady scholar (aka Mrs. Coulter):</strong> Roger do you know what dust is?</p>
+
+                <iframe style="margin: auto; display: block; margin-bottom: 1rem;" width="480" height="270"
+                    src="https://www.powtoon.com/embed/d8Xjb9TmezB/" frameborder="0" allowfullscreen></iframe>
+                <p><strong>Lyra:</strong> I should:</p>
+            </div>
+
+            <div class="choices">
+                <div class="choice">
+                    <label class="first">
+                        <input value="branch4.html" type="radio" name="choice" checked> Control my rage and smile to
+                        Mrs. Coulter
+                    </label>
+                </div>
+
+                <div class="choice">
+                    <label class="last">
+                        <input value="gameOver.html" type="radio" name="choice"> Get furious and shout at Master and the
+                        lady and rush to my room
+                    </label>
+                </div>
+            </div>
+
+            <a class="link" href="#"><button class="btn" id="btn1">Next</button></a>
+        </div>
+
+    </div>
+    <script src="../js/main.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

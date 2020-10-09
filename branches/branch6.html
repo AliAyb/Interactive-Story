@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Interactive Story</title>
+</head>
+
+<body onload="slideAnimation()">
+    <div id="main-container">
+        <div class="main-header">
+            <h1 class="game-title"><span>Here comes the title of the story</span></h1>
+            <h2 class="author"><span>by Under Pressure</span></h2>
+            <button class="reset-game">Restart Game</button>
+        </div>
+
+        <div class="main">
+            <div class="text">
+                <p><strong>Narrator:</strong> After dinner, Master called Lyra to his room.
+
+
+                <p><strong>Master:</strong> Mrs. Coulter has talked to me about you. She said she would like to take you
+                    to Paris with her as her research assistant. She also told me you’ve accepted her offer. I want to
+                    give you this device called the Alethiometer. This device would always tell the truth. But you have
+                    to figure out how to use it, and you must never let anyone, especially Mrs. Coulter know about it.
+                    Now hurry, child, go get ready. You are taking off in the early morning.
+                </p>
+
+                <p><strong>Narrator:</strong> Next day, Lyra was on a hot balloon on her way to Paris.
+                    She spent the next few days learning about Mrs. Coulter’s work. However, Mrs. Coulter seems to have
+                    changed. She was no longer kind. She was mean and always shouting at Lyra when she did something
+                    wrong.
+                    Lyra was not getting any information about dust nor about the North. She noticed Mrs. Coulter was
+                    always
+                    spending her time in a room that was always locked. Lyra figured there was something she needed to
+                    see
+                    in that room.
+                </p>
+
+
+                <iframe style="margin: auto; display: block; margin-bottom: 1rem;" width="480" height="270"
+                    src="https://www.powtoon.com/embed/d2ZHpwfzUIJ/" frameborder="0" allowfullscreen></iframe>
+                <p><strong>Lyra:</strong> I should:</p>
+            </div>
+
+            <div class="choices">
+                <div class="choice">
+                    <label class="first">
+                        <input value="gameOver.html" type="radio" name="choice" checked> Ask Mrs. Coulter about dust and
+                        North and what she was hiding in the room
+                    </label>
+                </div>
+
+                <div class="choice">
+                    <label class="last">
+                        <input value="end.html" type="radio" name="choice"> Wait till she leaves the house and
+                        sneak to the room
+                    </label>
+                </div>
+            </div>
+
+            <a class="link" href="#"><button class="btn" id="btn1">Next</button></a>
+        </div>
+
+    </div>
+    <script src="../js/main.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Interactive Story</title>
+</head>
+
+<body onload="slideAnimation()">
+    <div id="main-container">
+        <div class="main-header">
+            <h1 class="game-title"><span>Here comes the title of the story</span></h1>
+            <h2 class="author"><span>by Under Pressure</span></h2>
+            <button class="reset-game">Restart Game</button>
+        </div>
+
+        <div class="main">
+            <div class="text">
+                <p><strong>Master:</strong> IMrs. Coulter, why don’t you tell Lyra more about your research. She is a
+                    bright girl and has been learning Sciences, Literature and Mathematics with our professors. She
+                    might be of use to you.
+
+
+                <p><strong>Mrs. Coulter:</strong> So Lyra, tell me how much do you know about subatomic particles?
+                </p>
+                <p><strong>Lyra:</strong> I know they are the smallest particles we know that constitute matter around
+                    us.
+
+                </p>
+
+                <p><strong>Mrs. Coulter:</strong> Brilliant, so my work includes studying a particular kind of subatomic
+                    particle which we know so little about. Those particles are similar to light but that’s all we know.
+                </p>
+
+                <iframe style="margin: auto; display: block; margin-bottom: 1rem;" width="480" height="270"
+                    src="https://www.powtoon.com/embed/ds0kQ88Frwi/" frameborder="0" allowfullscreen></iframe>
+                <p><strong>Lyra:</strong> I should:</p>
+            </div>
+
+            <div class="choices">
+                <div class="choice">
+                    <label class="first">
+                        <input value="gameOver.html" type="radio" name="choice" checked> Tell Mrs. Coulter I know about
+                        dust.
+                    </label>
+                </div>
+
+                <div class="choice">
+                    <label class="last">
+                        <input value="branch5.html" type="radio" name="choice"> Stay silent and hear what she has to
+                        say
+                    </label>
+                </div>
+            </div>
+
+            <a class="link" href="#"><button class="btn" id="btn1">Next</button></a>
+        </div>
+
+    </div>
+    <script src="../js/main.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Interactive Story</title>
+</head>
+
+<body onload="slideAnimation()">
+    <div id="main-container">
+        <div class="main-header">
+            <h1 class="game-title"><span>Here comes the title of the story</span></h1>
+            <h2 class="author"><span>by Under Pressure</span></h2>
+            <button class="reset-game">Restart Game</button>
+        </div>
+
+        <div class="main">
+            <div class="text">
+                <p><strong>Mrs. Coulter:</strong> I also make trips from time to time to the North to do field research.
+                    I am currently looking for someone to help me as it’s too much work for one person. If you are
+                    interested I could convince the Master to allow you to come with me. I would teach you about my work
+                    and I could certainly use the extra brain and hands.
+
+                <p><strong>Narrator:</strong> Lyra was so excited to know that Mrs. Coulter is studying the dust and
+                    travels along with her. She thought this was a good chance to learn more about what her uncle was
+                    talking about and where the Gobblers might have taken Billy and maybe Roger.
+                </p>
+
+                <iframe style="margin: auto; display: block; margin-bottom: 1rem;" width="480" height="270"
+                    src="https://www.powtoon.com/embed/bu5ivBKlo5L/" frameborder="0" allowfullscreen></iframe>
+                <p><strong>Lyra:</strong> I should:</p>
+            </div>
+
+            <div class="choices">
+                <div class="choice">
+                    <label class="first">
+                        <input value="branch6.html" type="radio" name="choice" checked> Accept her offer and Go to
+                        Paris with her.
+                    </label>
+                </div>
+
+                <div class="choice">
+                    <label class="last">
+                        <input value="gameOver.html" type="radio" name="choice"> Decline the offer of Mrs. Coulter and
+                        tell her I don’t have time because I need to search for Roger
+                        say
+                    </label>
+                </div>
+            </div>
+
+            <a class="link" href="#"><button class="btn" id="btn1">Next</button></a>
+        </div>
+
+    </div>
+    <script src="../js/main.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
